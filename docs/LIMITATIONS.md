@@ -12,3 +12,6 @@
 - Dashboard is local unless an explicit deployment URL is recorded. GitHub releases and CI results are claimed only when they actually exist.
 
 Next: expand the verified sample with source-specific permission review, resolve missing comparative definitions, collect real joint-batch Trends exports, then perform customer research and authorized experiments. A supported Windows/Fabric authoring session is needed to test Power BI.
+
+## Static web experience
+Browser calculations are a small tested projection of canonical Python/SQL output, not a second ETL layer. The local initial-JS budgets are measured as gzip of requested first-party chunks; local unthrottled LCP/CLS do not prove public mobile network performance. Automated axe and representative keyboard/touch/layout checks do not certify complete WCAG compliance. No hosted audience or production URL is claimed.

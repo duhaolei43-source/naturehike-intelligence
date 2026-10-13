@@ -1,0 +1,38 @@
+[
+  {
+    "cohort_id": "3-season|freestanding|double-wall|false",
+    "product_ids": [
+      "ba-blacktail-2",
+      "ba-blacktail-hotel-2",
+      "ba-copper-spur-ul2",
+      "mhw-aspect-2",
+      "msr-hubba-hubba-hd-2",
+      "msr-hubba-hubba-lt-2",
+      "nemo-dagger-osmo-2",
+      "nemo-dragonfly-osmo-2"
+    ]
+  },
+  {
+    "cohort_id": "3-season|freestanding|double-wall|true",
+    "product_ids": [
+      "mhw-mineral-king-2",
+      "nemo-aurora-2",
+      "nh-cloud-up-20d",
+      "nh-cloud-up-pro-standard",
+      "rei-half-dome-2",
+      "rei-trail-hut-2",
+      "rei-trailmade-2"
+    ]
+  },
+  {
+    "cohort_id": "3-season|semi-freestanding|double-wall|false",
+    "product_ids": [
+      "ba-fly-creek-ul2",
+      "ba-tiger-wall-ul2",
+      "mhw-nimbus-ul-2",
+      "msr-freelite-2",
+      "nemo-hornet-elite-osmo-2",
+      "nemo-hornet-osmo-2"
+    ]
+  }
+]

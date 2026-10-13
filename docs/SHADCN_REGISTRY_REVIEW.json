@@ -1,0 +1,8 @@
+{
+  "url": "https://ui.shadcn.com/r/styles/new-york/dialog.json",
+  "sha256": "e240f8eaa9e9e626dffa1a340469c6bace9c631e78b7b10e7d0f178a32a1c71c",
+  "retrieval_date": "2026-10-13",
+  "base": "Radix",
+  "license": "MIT, shadcn/ui",
+  "scope": "dialog component source, retained locally and customized via wrapper"
+}

@@ -49,6 +49,10 @@ def verify_release(root: Path):
         data = pl.read_parquet(path)
         if "is_test_data" in data.columns and data["is_test_data"].any():
             raise ValueError("synthetic data in public processed outputs")
+    if (root / "web/public/data").exists():
+        from naturehike_intel.export.web_release import verify_web_release
+
+        verify_web_release(root)
     return {
         "tracked_files": len([p for p in tracked if p]),
         "source_records": len(sources),

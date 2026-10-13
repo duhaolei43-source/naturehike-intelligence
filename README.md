@@ -1,3 +1,24 @@
+## Public research atlas (new stacked implementation)
+
+The static Next.js/TypeScript experience is under `web/`. It adds illustrated stories, scoped charts/tables, 30 variant dossiers, 2–4 item comparisons, source drawers, shareable state and public downloads. It is a local production preview; no public deployment has occurred. The work is stacked on PR #1, which remains unmerged.
+
+```sh
+uv sync --locked
+uv run python scripts/build_data.py
+uv run python scripts/export_web.py
+cd web
+# Use Node 24.21.0 and npm 10.9.2
+npm ci
+npm run build
+npm run preview
+```
+
+[Web specification](docs/WEB_EXPERIENCE_SPEC.md) · [Design](DESIGN.md) · [Release and rollback](docs/WEB_RELEASE_CHECKLIST.md) · [Toolchain sources](docs/TOOLCHAIN_SOURCES.md)
+
+![Research atlas home](outputs/public/web/screenshots/home-1440.png)
+
+The three missing prices, empty real Trends data, proposed experiments and UNVERIFIED Power BI runtime remain explicit. Frontend parity checks use canonical Python/DuckDB vectors. Original observation dates are preserved; this web implementation does not claim a new live product-source review.
+
 # Naturehike U.S. Market Intelligence & Growth Strategy
 
 **This independent analytical project is not affiliated with, sponsored by, or endorsed by Naturehike.**
@@ -54,7 +75,7 @@ Google Trends exports require exact terms/topics, US geography, period, category
 Clone the implementation branch until its PR is merged:
 
 ```bash
-git clone --branch codex/market-intelligence-implementation https://github.com/duhaolei43-source/naturehike-intelligence.git
+git clone --branch codex/public-market-experience https://github.com/duhaolei43-source/naturehike-intelligence.git
 cd naturehike-intelligence
 uv sync --locked
 uv run ruff check .
@@ -70,7 +91,7 @@ uv run streamlit run app/streamlit_app.py
 
 Dataset: **2026-10-13-v1**. Reviewed analytical CSV/Parquet tables and input/output hashes are in [data/public/processed](data/public/processed). `market.duckdb` is generated locally and ignored by Git. Charts and descriptive summaries are under [outputs/public](outputs/public). Routine builds and CI are offline and need neither private credentials nor the private research archive. See [reproduction details](docs/REPRODUCIBILITY.md).
 
-Local verification: **40 tests pass**, including source contracts, prices, units, null handling, variant identity, duplicate listings, time snapshots, Trends metadata/censoring, SQL aggregates, golden outputs, six dashboard pages, encrypted-backup roundtrip and public/private separation. Two isolated builds produce identical CSV/Parquet hashes. No test coverage percentage is claimed. The [CI workflow](.github/workflows/ci.yml) runs lint, format, contracts, unit/integration tests, reproducibility, release safety and a pinned Gitleaks scan. See [Actions](https://github.com/duhaolei43-source/naturehike-intelligence/actions) for actual remote results.
+Local verification: **48 tests pass**, including source contracts, prices, units, null handling, variant identity, duplicate listings, time snapshots, Trends metadata/censoring, SQL aggregates, golden outputs, six dashboard pages, encrypted-backup roundtrip and public/private separation. Two isolated builds produce identical CSV/Parquet hashes. No test coverage percentage is claimed. The [CI workflow](.github/workflows/ci.yml) runs lint, format, contracts, unit/integration tests, reproducibility, release safety and a pinned Gitleaks scan. See [Actions](https://github.com/duhaolei43-source/naturehike-intelligence/actions) for actual remote results.
 
 ## Power BI and audit boundaries
 

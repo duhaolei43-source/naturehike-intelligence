@@ -48,3 +48,6 @@ Codex assisted source review, schema design, pipeline/SQL, test writing, dashboa
 ## What is a legitimate résumé statement?
 "Built an independent, AI-assisted market intelligence case study with source-linked product observations, Python/Polars/DuckDB transformations, validation tests and a Streamlit dashboard; proposed evidence-linked marketing experiments."
 Add verified sample and test counts only after checking the release. Do not claim Naturehike employment, revenue impact, 30 verified prices, measured campaign results, completed consumer research or a validated Power BI dashboard.
+
+## Public web walkthrough
+Start at the atlas home, open I1, compare the exact Cloud Up variants, inspect a source drawer, then use the explorer to switch minimum/packed weight. Explain the canonical Naturehike baseline scope and missing inputs. Show the demand and Power BI statuses honestly. Describe the AI-assisted implementation accurately; demonstrate reproducibility and diagnosis of real failed checks without treating generated code as unaided authorship. No customer behavior, campaign execution or uplift is claimed.

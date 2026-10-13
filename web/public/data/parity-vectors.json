@@ -1,0 +1,138 @@
+[
+  {
+    "expected": {
+      "baseline": null,
+      "baseline_n": 0,
+      "count": 30,
+      "frontier": null,
+      "gap": null,
+      "median": 350.0,
+      "missing_weight": 0,
+      "priced": 27
+    },
+    "scope": {
+      "availability": [],
+      "brands": [],
+      "cohort": "all",
+      "name": "all",
+      "price_types": [],
+      "weight": "minimum_weight_g"
+    }
+  },
+  {
+    "expected": {
+      "baseline": 139.0,
+      "baseline_n": 2,
+      "count": 2,
+      "frontier": [
+        "nh-cloud-up-20d",
+        "nh-cloud-up-pro-standard"
+      ],
+      "gap": 0.0,
+      "median": 139.0,
+      "missing_weight": 0,
+      "priced": 2
+    },
+    "scope": {
+      "availability": [],
+      "brands": [
+        "naturehike"
+      ],
+      "cohort": "3-season|freestanding|double-wall|true",
+      "name": "naturehike",
+      "price_types": [],
+      "weight": "minimum_weight_g"
+    }
+  },
+  {
+    "expected": {
+      "baseline": null,
+      "baseline_n": 0,
+      "count": 0,
+      "frontier": null,
+      "gap": null,
+      "median": null,
+      "missing_weight": 0,
+      "priced": 0
+    },
+    "scope": {
+      "availability": [],
+      "brands": [],
+      "cohort": "3-season|freestanding|double-wall|true",
+      "name": "regular_no_baseline",
+      "price_types": [
+        "regular"
+      ],
+      "weight": "packed_weight_g"
+    }
+  },
+  {
+    "expected": {
+      "baseline": 139.0,
+      "baseline_n": 2,
+      "count": 7,
+      "frontier": [
+        "nh-cloud-up-20d",
+        "nh-cloud-up-pro-standard"
+      ],
+      "gap": 120.0,
+      "median": 259.0,
+      "missing_weight": 0,
+      "priced": 7
+    },
+    "scope": {
+      "availability": [],
+      "brands": [],
+      "cohort": "3-season|freestanding|double-wall|true",
+      "name": "packed",
+      "price_types": [],
+      "weight": "packed_weight_g"
+    }
+  },
+  {
+    "expected": {
+      "baseline": 139.0,
+      "baseline_n": 2,
+      "count": 3,
+      "frontier": [
+        "rei-trailmade-2"
+      ],
+      "gap": 120.0,
+      "median": 259.0,
+      "missing_weight": 0,
+      "priced": 3
+    },
+    "scope": {
+      "availability": [],
+      "brands": [
+        "rei"
+      ],
+      "cohort": "3-season|freestanding|double-wall|true",
+      "name": "hidden_baseline",
+      "price_types": [],
+      "weight": "minimum_weight_g"
+    }
+  },
+  {
+    "expected": {
+      "baseline": 139.0,
+      "baseline_n": 2,
+      "count": 0,
+      "frontier": null,
+      "gap": null,
+      "median": null,
+      "missing_weight": 0,
+      "priced": 0
+    },
+    "scope": {
+      "availability": [],
+      "brands": [
+        "tarptent"
+      ],
+      "cohort": "3-season|freestanding|double-wall|true",
+      "name": "empty",
+      "price_types": [],
+      "weight": "minimum_weight_g"
+    }
+  }
+]

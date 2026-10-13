@@ -1,0 +1,57 @@
+[
+  {
+    "alt": "Generic tent schematic with fly, inner tent and separate groundsheet",
+    "asset_id": "atlas-tent",
+    "creator": "Project author with Codex assistance",
+    "edits": "None; generic schematic, not an exact SKU",
+    "path": "/media/atlas-tent.svg",
+    "permission": "Original project SVG; MIT project license",
+    "placement": "Home and product dossiers",
+    "retrieval_date": "2026-10-13",
+    "source_url": null
+  },
+  {
+    "alt": "Official listings flow through validation, canonical analysis, and public export",
+    "asset_id": "provenance-route",
+    "creator": "Project author with Codex assistance",
+    "edits": "None",
+    "path": "inline-svg",
+    "permission": "Original project SVG; MIT project license",
+    "placement": "Methodology",
+    "retrieval_date": "2026-10-13",
+    "source_url": null
+  },
+  {
+    "alt": "Two independent weight bars, minimum and packed; missing values labeled",
+    "asset_id": "dual-weight",
+    "creator": "Project author with Codex assistance",
+    "edits": "None",
+    "path": "inline-svg",
+    "permission": "Original project SVG; MIT project license",
+    "placement": "Dossiers, comparison and insights",
+    "retrieval_date": "2026-10-13",
+    "source_url": null
+  },
+  {
+    "alt": "Readable body / display typeface",
+    "asset_id": "ibm-plex-sans",
+    "creator": "IBM",
+    "edits": "Self-hosted Fontsource variable webfont, no glyph modifications",
+    "path": "/_next/static/media/",
+    "permission": "SIL Open Font License 1.1; full license shipped under /media/ibm-plex-sans-LICENSE.txt",
+    "placement": "Sitewide typography",
+    "retrieval_date": "2026-10-13",
+    "source_url": "https://fontsource.org/fonts/ibm-plex-sans"
+  },
+  {
+    "alt": "Readable body / display typeface",
+    "asset_id": "newsreader",
+    "creator": "Production Type",
+    "edits": "Self-hosted Fontsource variable webfont, no glyph modifications",
+    "path": "/_next/static/media/",
+    "permission": "SIL Open Font License 1.1; full license shipped under /media/newsreader-LICENSE.txt",
+    "placement": "Sitewide typography",
+    "retrieval_date": "2026-10-13",
+    "source_url": "https://fontsource.org/fonts/newsreader"
+  }
+]

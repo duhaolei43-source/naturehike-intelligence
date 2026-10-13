@@ -1,0 +1,57 @@
+[
+  {
+    "asset_id": "atlas-tent",
+    "path": "/media/atlas-tent.svg",
+    "creator": "Project author with Codex assistance",
+    "source_url": null,
+    "permission": "Original project SVG; MIT project license",
+    "retrieval_date": "2026-10-13",
+    "edits": "None; generic schematic, not an exact SKU",
+    "alt": "Generic tent schematic with fly, inner tent and separate groundsheet",
+    "placement": "Home and product dossiers"
+  },
+  {
+    "asset_id": "provenance-route",
+    "path": "inline-svg",
+    "creator": "Project author with Codex assistance",
+    "source_url": null,
+    "permission": "Original project SVG; MIT project license",
+    "retrieval_date": "2026-10-13",
+    "edits": "None",
+    "alt": "Official listings flow through validation, canonical analysis, and public export",
+    "placement": "Methodology"
+  },
+  {
+    "asset_id": "dual-weight",
+    "path": "inline-svg",
+    "creator": "Project author with Codex assistance",
+    "source_url": null,
+    "permission": "Original project SVG; MIT project license",
+    "retrieval_date": "2026-10-13",
+    "edits": "None",
+    "alt": "Two independent weight bars, minimum and packed; missing values labeled",
+    "placement": "Dossiers, comparison and insights"
+  },
+  {
+    "asset_id": "ibm-plex-sans",
+    "path": "/_next/static/media/",
+    "creator": "IBM",
+    "source_url": "https://fontsource.org/fonts/ibm-plex-sans",
+    "permission": "SIL Open Font License 1.1; full license shipped under /media/ibm-plex-sans-LICENSE.txt",
+    "retrieval_date": "2026-10-13",
+    "edits": "Self-hosted Fontsource variable webfont, no glyph modifications",
+    "alt": "Readable body / display typeface",
+    "placement": "Sitewide typography"
+  },
+  {
+    "asset_id": "newsreader",
+    "path": "/_next/static/media/",
+    "creator": "Production Type",
+    "source_url": "https://fontsource.org/fonts/newsreader",
+    "permission": "SIL Open Font License 1.1; full license shipped under /media/newsreader-LICENSE.txt",
+    "retrieval_date": "2026-10-13",
+    "edits": "Self-hosted Fontsource variable webfont, no glyph modifications",
+    "alt": "Readable body / display typeface",
+    "placement": "Sitewide typography"
+  }
+]

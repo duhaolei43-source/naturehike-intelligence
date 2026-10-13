@@ -1,0 +1,43 @@
+{
+  "setup": "Node24.21.0 / Playwright Chromium / macOS / charts not loaded initially",
+  "measurements": [
+    {
+      "route": "/",
+      "viewport": "390x844",
+      "cold_context": true,
+      "network": "Local loopback, unthrottled; no deployed-network claim",
+      "lcp_ms": 76,
+      "cls": 0.0005960130310156141,
+      "initial_js_gzip_bytes": 202669,
+      "js_files": [
+        "/_next/static/chunks/19wg2q9r2_sev.js",
+        "/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+        "/_next/static/chunks/0fjo9lz5w15u3.js",
+        "/_next/static/chunks/0umf92h1sb77c.js",
+        "/_next/static/chunks/3dmm3v_fq28gc.js",
+        "/_next/static/chunks/1nyvufxjcoh8u.js",
+        "/_next/static/chunks/0t4osbk4e7lst.js"
+      ]
+    },
+    {
+      "route": "/explore/",
+      "viewport": "390x844",
+      "cold_context": true,
+      "network": "Local loopback, unthrottled; no deployed-network claim",
+      "lcp_ms": 48,
+      "cls": 0.0018864488903140783,
+      "initial_js_gzip_bytes": 223586,
+      "js_files": [
+        "/_next/static/chunks/19wg2q9r2_sev.js",
+        "/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+        "/_next/static/chunks/3dmm3v_fq28gc.js",
+        "/_next/static/chunks/0fjo9lz5w15u3.js",
+        "/_next/static/chunks/0umf92h1sb77c.js",
+        "/_next/static/chunks/263f3eujd6sbt.js",
+        "/_next/static/chunks/1nyvufxjcoh8u.js",
+        "/_next/static/chunks/0t4osbk4e7lst.js",
+        "/_next/static/chunks/05szhmu00--ip.js"
+      ]
+    }
+  ]
+}
