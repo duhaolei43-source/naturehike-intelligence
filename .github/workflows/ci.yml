@@ -44,5 +44,5 @@ jobs:
       - name: Scan tracked Git history for secrets
         if: matrix.name == 'Release Safety Check'
         run: |
-          go install github.com/gitleaks/gitleaks/v8@v8.30.1
+          go install github.com/zricethezav/gitleaks/v8@v8.30.1
           "$(go env GOPATH)/bin/gitleaks" git --redact .
