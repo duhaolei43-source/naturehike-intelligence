@@ -1,0 +1,54 @@
+[
+  {
+    "identifier": "NH-Mongar-footprint",
+    "reason": "Accessory, not complete tent; list-page low price excluded."
+  },
+  {
+    "identifier": "NH-Mongar-20D",
+    "reason": "Specification verified but independent variant price selection not confirmed; not counted as separate variant."
+  },
+  {
+    "identifier": "NH-Star-River",
+    "reason": "Variant binding and weight definitions not verified in this collection pass."
+  },
+  {
+    "identifier": "Kelty-Discovery-Trail-2",
+    "reason": "Official detail page retrieval failed; third-party weight statements disagree; not substituted."
+  },
+  {
+    "identifier": "TNF-Stormbreak-2",
+    "reason": "Retrieved U.S. product page presents camping, without explicit backpacking orientation; excluded from initial cohort."
+  },
+  {
+    "identifier": "REI-Half-Dome-SL-2-plus",
+    "reason": "Archived predecessor; no current canonical variant price verified."
+  },
+  {
+    "identifier": "MSR-Hubba-Hubba-NX-EU",
+    "reason": "EU page is not sufficient proof of U.S. advertising in current collection."
+  },
+  {
+    "identifier": "Tarptent-option-prices",
+    "reason": "Published price ranges could not be bound reliably to the recorded pole/interior variants; three prices remain null, specs included only."
+  },
+  {
+    "identifier": "MHW-Mineral-King-2-All-Season",
+    "reason": "Official current page has no price and says unavailable; excluded from current offer collection."
+  },
+  {
+    "identifier": "NEMO-Dragonfly-C05156-and-Dagger-246450",
+    "reason": "Unavailable older listing IDs; use current C01603 and 242364 instead."
+  },
+  {
+    "identifier": "Big-Agnes-Salt-Creek-SL2",
+    "reason": "Unavailable archive without current price; excluded."
+  },
+  {
+    "identifier": "Tarptent-Double-Rainbow-DW-2023-Fly",
+    "reason": "Old URL redirects to fly-only accessory; current complete tent URL is double-rainbow-dw-sp."
+  },
+  {
+    "identifier": "Bikepacking-only-listings",
+    "reason": "Best-use bikepacking is outside initial backpacking-only segment; not added to meet target."
+  }
+]

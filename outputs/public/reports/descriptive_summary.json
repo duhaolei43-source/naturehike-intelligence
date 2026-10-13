@@ -1,0 +1,21 @@
+{
+  "dataset_version": "2026-10-13-v1",
+  "sample": "30 source-verified specifications across 9 brands; 27 verified prices; convenience sample",
+  "observed_prices_usd": {
+    "median": 350.0,
+    "min": 113.0,
+    "max": 699.95,
+    "n": 27,
+    "iqr": 290.475
+  },
+  "naturehike_median_with_sale_usd": 119.0,
+  "naturehike_median_excluding_sale_usd": 139.0,
+  "strict_cohort_count": 3,
+  "demand_status": "incomplete_no_exports",
+  "powerbi_status": "UNVERIFIED",
+  "limitations": [
+    "No transaction or population inference",
+    "Minimum and packed component definitions can differ",
+    "Material and floor-area controls remain incomplete"
+  ]
+}

@@ -1,0 +1,28 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ruff-check
+        name: Ruff lint
+        entry: uv run ruff check .
+        language: system
+        pass_filenames: false
+      - id: ruff-format
+        name: Ruff format check
+        entry: uv run ruff format --check .
+        language: system
+        pass_filenames: false
+      - id: sqlfluff
+        name: DuckDB SQL lint
+        entry: uv run sqlfluff lint sql
+        language: system
+        pass_filenames: false
+      - id: release-guard
+        name: Public release safety
+        entry: uv run python scripts/verify_release.py
+        language: system
+        pass_filenames: false
+      - id: gitleaks
+        name: Secret scan
+        entry: gitleaks git --staged --redact
+        language: system
+        pass_filenames: false
