@@ -1,0 +1,814 @@
+[
+  {
+    "source_id": "nh-cloud-up-20d-source",
+    "url": "https://www.naturehike.com/products/cloud-up-2-person-ultralight-backpacking-tent",
+    "publisher": "Naturehike",
+    "retrieved_at_utc": "2026-10-13T19:32:26.941285+00:00",
+    "identifier": "nh-cloud-up-20d",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Individual official product pages reviewed through ordinary public access. Public output contains only concise factual observations and attribution. No bulk extraction, review text, photography, full-page captures or assertion of blanket redistribution permission.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Clearance model; default 20D Grey is sold out. Expanded dimensions are not treated as floor area. UI sale-label without original price is unclassified.",
+      "Prices are observed display prices; checkout, taxes, stock and regional shipping are not verified. Web retrieval may use cached content."
+    ],
+    "evidence_sha256": "92fef4252f471906a2d447996551948e5b7682d993763657098ebb252a92559a"
+  },
+  {
+    "source_id": "nh-cloud-up-pro-standard-source",
+    "url": "https://www.naturehike.com/products/cloud-up-pro-2-person-ultralight-backpacking-tent",
+    "publisher": "Naturehike",
+    "retrieved_at_utc": "2026-10-13T19:32:26.941285+00:00",
+    "identifier": "nh-cloud-up-pro-standard",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Individual official product pages reviewed through ordinary public access. Public output contains only concise factual observations and attribution. No bulk extraction, review text, photography, full-page captures or assertion of blanket redistribution permission.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Expanded dimensions are not floor area. Exact minimum weight components not explicitly defined. No original-price strike-through; display price remains unclassified.",
+      "Prices are observed display prices; checkout, taxes, stock and regional shipping are not verified. Web retrieval may use cached content."
+    ],
+    "evidence_sha256": "7f3ea4afe383d05be9ac62df8ff051452625a4adfc830c2af8fc23d20319d735"
+  },
+  {
+    "source_id": "nh-mongar-210t-source",
+    "url": "https://www.naturehike.com/products/mongar-2-person-ultralight-backpacking-tent",
+    "publisher": "Naturehike",
+    "retrieved_at_utc": "2026-10-13T19:32:26.941285+00:00",
+    "identifier": "nh-mongar-210t",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Individual official product pages reviewed through ordinary public access. Public output contains only concise factual observations and attribution. No bulk extraction, review text, photography, full-page captures or assertion of blanket redistribution permission.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Only selected 210T option collected; separate footprint listing and 20D price not imported. Packed weight and floor area unverified.",
+      "Prices are observed display prices; checkout, taxes, stock and regional shipping are not verified. Web retrieval may use cached content."
+    ],
+    "evidence_sha256": "d0e5036db692a799b18463fd5816e9da47a662db25b16abb646715636c28dda5"
+  },
+  {
+    "source_id": "kelty-grand-mesa-2-source",
+    "url": "https://kelty.com/products/grand-mesa-2",
+    "publisher": "Kelty",
+    "retrieved_at_utc": "2026-10-13T19:32:26.941285+00:00",
+    "identifier": "kelty-grand-mesa-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Individual official product pages reviewed through ordinary public access. Public output contains only concise factual observations and attribution. No bulk extraction, review text, photography, full-page captures or assertion of blanket redistribution permission.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Manufacturer rounded metric values retained. Construction segmentation is descriptive; freestanding status not explicitly verified.",
+      "Prices are observed display prices; checkout, taxes, stock and regional shipping are not verified. Web retrieval may use cached content."
+    ],
+    "evidence_sha256": "25b26cd031e7ef023ff15b49303af07ca86f29e322031670d063ac4716048851"
+  },
+  {
+    "source_id": "kelty-late-start-2-source",
+    "url": "https://kelty.com/products/late-start-2p",
+    "publisher": "Kelty",
+    "retrieved_at_utc": "2026-10-13T19:32:26.941285+00:00",
+    "identifier": "kelty-late-start-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Individual official product pages reviewed through ordinary public access. Public output contains only concise factual observations and attribution. No bulk extraction, review text, photography, full-page captures or assertion of blanket redistribution permission.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Published metric/imperial disagreement: retain metric, disclose rounding; do not resolve by guess. Freestanding status unverified.",
+      "Prices are observed display prices; checkout, taxes, stock and regional shipping are not verified. Web retrieval may use cached content."
+    ],
+    "evidence_sha256": "2f8a230e052aa61f10a11600aa8ba5050131c3782436b652a4ad16fade98c7e5"
+  },
+  {
+    "source_id": "kelty-far-out-2-source",
+    "url": "https://kelty.com/products/far-out-2",
+    "publisher": "Kelty",
+    "retrieved_at_utc": "2026-10-13T19:32:26.941285+00:00",
+    "identifier": "kelty-far-out-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Individual official product pages reviewed through ordinary public access. Public output contains only concise factual observations and attribution. No bulk extraction, review text, photography, full-page captures or assertion of blanket redistribution permission.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Floor-area source omits squared symbols; value interpretation recorded. Freestanding status unverified.",
+      "Prices are observed display prices; checkout, taxes, stock and regional shipping are not verified. Web retrieval may use cached content."
+    ],
+    "evidence_sha256": "038aaf0ee578d4323e2be057be2b2479ed3378e48fe4b9c8afcd954895aaf0ad"
+  },
+  {
+    "source_id": "rei-trailmade-2-source",
+    "url": "https://www.rei.com/product/243611/rei-co-op-trailmade-2-tent-with-footprint",
+    "publisher": "REI Co-op",
+    "retrieved_at_utc": "2026-10-13T19:32:26.941285+00:00",
+    "identifier": "rei-trailmade-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Individual official product pages reviewed through ordinary public access. Public output contains only concise factual observations and attribution. No bulk extraction, review text, photography, full-page captures or assertion of blanket redistribution permission.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Rei Yellow displayed sold out. Advertised inclusion does not guarantee stock. Current product ID; not older 216300 version.",
+      "Prices are observed display prices; checkout, taxes, stock and regional shipping are not verified. Web retrieval may use cached content."
+    ],
+    "evidence_sha256": "dc2b248c20398ee645f172da83e38425f8a0d7601e4002bbe2cf1fc74fb728bc"
+  },
+  {
+    "source_id": "rei-half-dome-2-source",
+    "url": "https://www.rei.com/product/243702/rei-co-op-half-dome-2-tent-with-footprint",
+    "publisher": "REI Co-op",
+    "retrieved_at_utc": "2026-10-13T19:32:26.941285+00:00",
+    "identifier": "rei-half-dome-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Individual official product pages reviewed through ordinary public access. Public output contains only concise factual observations and attribution. No bulk extraction, review text, photography, full-page captures or assertion of blanket redistribution permission.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Stone Green displayed sold out. Do not mix with archived Half Dome SL 2+ or old Half Dome 2.",
+      "Prices are observed display prices; checkout, taxes, stock and regional shipping are not verified. Web retrieval may use cached content."
+    ],
+    "evidence_sha256": "f61376eddf86e4342d6b5205880333c6f18e005a3caa1cb7ae589a30c75c0ef1"
+  },
+  {
+    "source_id": "rei-trail-hut-2-source",
+    "url": "https://www.rei.com/product/C03309/rei-co-op-trail-hut-2-tent-with-footprint",
+    "publisher": "REI Co-op",
+    "retrieved_at_utc": "2026-10-13T19:32:26.941285+00:00",
+    "identifier": "rei-trail-hut-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Individual official product pages reviewed through ordinary public access. Public output contains only concise factual observations and attribution. No bulk extraction, review text, photography, full-page captures or assertion of blanket redistribution permission.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Blue Ridge displayed sold out. Current page price differs from legacy $229 listings.",
+      "Prices are observed display prices; checkout, taxes, stock and regional shipping are not verified. Web retrieval may use cached content."
+    ],
+    "evidence_sha256": "85d29ef0e376876d11f37fd91d6cc765e7d156d8248cfd5d687cbd34a8cd8f9b"
+  },
+  {
+    "source_id": "tnf-trail-lite-2-source",
+    "url": "https://www.thenorthface.com/en-us/p/bags-and-gear/tents-211750/trail-lite-2-NF0A8BDQ",
+    "publisher": "The North Face",
+    "retrieved_at_utc": "2026-10-13T19:32:26.941285+00:00",
+    "identifier": "tnf-trail-lite-2",
+    "tier": "A",
+    "extracted_fields": [
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Individual official product pages reviewed through ordinary public access. Public output contains only concise factual observations and attribution. No bulk extraction, review text, photography, full-page captures or assertion of blanket redistribution permission.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Season and freestanding classification absent from retrieved U.S. page; excluded from strict cohorts. Total weight mapping explicit; cross-brand component equivalence unverified.",
+      "Prices are observed display prices; checkout, taxes, stock and regional shipping are not verified. Web retrieval may use cached content."
+    ],
+    "evidence_sha256": "e23b4660ac4a16c094fd6546bb2182bcad350945ba62677a29eceaa5df53db10"
+  },
+  {
+    "source_id": "msr-freelite-2-source",
+    "url": "https://cascadedesigns.com/products/freelite-2-person-ultralight-backpacking-tent",
+    "publisher": "Cascade Designs / MSR",
+    "retrieved_at_utc": "2026-10-13T19:32:26.941285+00:00",
+    "identifier": "msr-freelite-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Individual official product pages reviewed through ordinary public access. Public output contains only concise factual observations and attribution. No bulk extraction, review text, photography, full-page captures or assertion of blanket redistribution permission.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Metric precedence. Separate semi-freestanding cohort; no global value ranking.",
+      "Prices are observed display prices; checkout, taxes, stock and regional shipping are not verified. Web retrieval may use cached content."
+    ],
+    "evidence_sha256": "22dedbbc6c7cc70d43f2c691ad8109de53e2f8b11464363af7c1d7fdbfb0f2a4"
+  },
+  {
+    "source_id": "msr-elixir-2-source",
+    "url": "https://cascadedesigns.com/products/elixir-2-backpacking-tent",
+    "publisher": "Cascade Designs / MSR",
+    "retrieved_at_utc": "2026-10-13T19:32:26.941285+00:00",
+    "identifier": "msr-elixir-2",
+    "tier": "A",
+    "extracted_fields": [
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Individual official product pages reviewed through ordinary public access. Public output contains only concise factual observations and attribution. No bulk extraction, review text, photography, full-page captures or assertion of blanket redistribution permission.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Season rating not explicitly verified. Metric floor area retained; inconsistency with imperial value documented.",
+      "Prices are observed display prices; checkout, taxes, stock and regional shipping are not verified. Web retrieval may use cached content."
+    ],
+    "evidence_sha256": "f542427daaeff391f74d922480061a3129cefc3b7457579a2e18928bca1c0a6e"
+  },
+  {
+    "source_id": "ba-copper-spur-ul2-source",
+    "url": "https://www.rei.com/product/245273/big-agnes-copper-spur-ul2-tent",
+    "publisher": "REI Co-op (official retailer listing)",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "ba-copper-spur-ul2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Official retailer listing, not a manufacturer-direct price. Current listing ID distinguished from archived predecessors. Displayed stock is not a guarantee of purchase availability. Materials and components still differ within structural cohorts.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "f89a288be061d36258f0004e40148ddbb33e82f0469ee122d1ae50b58d26e808"
+  },
+  {
+    "source_id": "ba-fly-creek-ul2-source",
+    "url": "https://www.rei.com/product/245275/big-agnes-fly-creek-ul2-tent",
+    "publisher": "REI Co-op (official retailer listing)",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "ba-fly-creek-ul2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Official retailer listing, not a manufacturer-direct price. Current listing ID distinguished from archived predecessors. Displayed stock is not a guarantee of purchase availability. Materials and components still differ within structural cohorts.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "02d81dc5140c711c5524e18fb1c43c88a8b898013c64ef98d35bc1df25e056f7"
+  },
+  {
+    "source_id": "ba-tiger-wall-ul2-source",
+    "url": "https://www.rei.com/product/245276/big-agnes-tiger-wall-ul2-tent",
+    "publisher": "REI Co-op (official retailer listing)",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "ba-tiger-wall-ul2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Official retailer listing, not a manufacturer-direct price. Current listing ID distinguished from archived predecessors. Displayed stock is not a guarantee of purchase availability. Materials and components still differ within structural cohorts.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "0ad10afbf00ecedf602ebdb3738dc699b52477b24a6435ca3a2c155d9c882a94"
+  },
+  {
+    "source_id": "ba-blacktail-2-source",
+    "url": "https://www.rei.com/product/245282/big-agnes-blacktail-2-tent",
+    "publisher": "REI Co-op (official retailer listing)",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "ba-blacktail-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Official retailer listing, not a manufacturer-direct price. Current listing ID distinguished from archived predecessors. Displayed stock is not a guarantee of purchase availability. Materials and components still differ within structural cohorts.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "c3a4b863c0598aefd6dcbc493ba9fcaa5003d264bf79652d38e67b09a2af46ef"
+  },
+  {
+    "source_id": "ba-blacktail-hotel-2-source",
+    "url": "https://www.rei.com/product/245283/big-agnes-blacktail-hotel-2-tent",
+    "publisher": "REI Co-op (official retailer listing)",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "ba-blacktail-hotel-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Official retailer listing, not a manufacturer-direct price. Current listing ID distinguished from archived predecessors. Displayed stock is not a guarantee of purchase availability. Materials and components still differ within structural cohorts.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "185f555f38829a46cb927ccf2bc59f3e65c7c77d35ea8c4fc80fbc3f51a324cb"
+  },
+  {
+    "source_id": "nemo-hornet-elite-osmo-2-source",
+    "url": "https://www.rei.com/product/251421/nemo-hornet-elite-osmo-2p-ultralight-tent",
+    "publisher": "REI Co-op (official retailer listing)",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "nemo-hornet-elite-osmo-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Official retailer listing, not a manufacturer-direct price. Current listing ID distinguished from archived predecessors. Displayed stock is not a guarantee of purchase availability. Materials and components still differ within structural cohorts.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "cc8ac93115656ab12e3a744cc36d2a028ff0b998762783cde4943f6c4eabbd4b"
+  },
+  {
+    "source_id": "nemo-hornet-osmo-2-source",
+    "url": "https://www.rei.com/product/238835/nemo-hornet-osmo-ultralight-2p-tent",
+    "publisher": "REI Co-op (official retailer listing)",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "nemo-hornet-osmo-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Official retailer listing, not a manufacturer-direct price. Current listing ID distinguished from archived predecessors. Displayed stock is not a guarantee of purchase availability. Materials and components still differ within structural cohorts.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "5ea054453572add6e61025ead2e11456d83c4d2fdeedaaed61e73842651e0d50"
+  },
+  {
+    "source_id": "nemo-dragonfly-osmo-2-source",
+    "url": "https://www.rei.com/product/C01603/nemo-dragonfly-osmo-2p-ultralight-backpacking-tent",
+    "publisher": "REI Co-op (official retailer listing)",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "nemo-dragonfly-osmo-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Official retailer listing, not a manufacturer-direct price. Current listing ID distinguished from archived predecessors. Displayed stock is not a guarantee of purchase availability. Materials and components still differ within structural cohorts.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "55a938658453ad4ff6c0be11a6c14c2c1fb7162b22ed4de7f796d022c474655c"
+  },
+  {
+    "source_id": "nemo-dagger-osmo-2-source",
+    "url": "https://www.rei.com/product/242364/nemo-dagger-osmo-2p-tent",
+    "publisher": "REI Co-op (official retailer listing)",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "nemo-dagger-osmo-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Official retailer listing, not a manufacturer-direct price. Current listing ID distinguished from archived predecessors. Displayed stock is not a guarantee of purchase availability. Materials and components still differ within structural cohorts.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "083cec333d975b0aa72eeac136e5cfadd600527ad01a241ee5298a55540fc323"
+  },
+  {
+    "source_id": "nemo-aurora-2-source",
+    "url": "https://www.rei.com/product/228469/nemo-aurora-2-backpacking-tent-with-footprint",
+    "publisher": "REI Co-op (official retailer listing)",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "nemo-aurora-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Official retailer listing, not a manufacturer-direct price. Current listing ID distinguished from archived predecessors. Displayed stock is not a guarantee of purchase availability. Materials and components still differ within structural cohorts.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "75729c631d51917d2b2a28c19695d60034dc03e28b62e4de3defb7f0f55788fb"
+  },
+  {
+    "source_id": "msr-hubba-hubba-lt-2-source",
+    "url": "https://www.rei.com/product/240318/msr-hubba-hubba-lt-2-tent",
+    "publisher": "REI Co-op (official retailer listing)",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "msr-hubba-hubba-lt-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Official retailer listing, not a manufacturer-direct price. Current listing ID distinguished from archived predecessors. Displayed stock is not a guarantee of purchase availability. Materials and components still differ within structural cohorts.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "8fe90dbdc72f4e0dd41f39fc90090cb49422074a176c35c13078399b11b1f447"
+  },
+  {
+    "source_id": "msr-hubba-hubba-hd-2-source",
+    "url": "https://www.rei.com/product/C04380/msr-hubba-hubba-hd-2-person-backpacking-tent",
+    "publisher": "REI Co-op (official retailer listing)",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "msr-hubba-hubba-hd-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Official retailer listing, not a manufacturer-direct price. Current listing ID distinguished from archived predecessors. Displayed stock is not a guarantee of purchase availability. Materials and components still differ within structural cohorts. Source rounded metric/imperial disagreements: 1.61 kg vs 3 lb 9 oz and 2.95 m² vs 32 ft². Metric values retained.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "bbc731bb4767a651196471c2bcdb407ed6c7c83c4c518e80cf4069ba80f9964c"
+  },
+  {
+    "source_id": "mhw-mineral-king-2-source",
+    "url": "https://www.rei.com/product/244542/mountain-hardwear-mineral-king-2-tent-with-footprint",
+    "publisher": "REI Co-op (official retailer listing)",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "mhw-mineral-king-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Official retailer listing, not a manufacturer-direct price. Current listing ID distinguished from archived predecessors. Displayed stock is not a guarantee of purchase availability. Materials and components still differ within structural cohorts.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "4d1d9ed8a44d7a4ebb03536995c1b0486c869f2d6e81bbe1ba58696311a28a8a"
+  },
+  {
+    "source_id": "mhw-aspect-2-source",
+    "url": "https://www.rei.com/product/244541/mountain-hardwear-aspect-2-tent",
+    "publisher": "REI Co-op (official retailer listing)",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "mhw-aspect-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Official retailer listing, not a manufacturer-direct price. Current listing ID distinguished from archived predecessors. Displayed stock is not a guarantee of purchase availability. Materials and components still differ within structural cohorts.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "c65fa0854a0ab2b5af237f9e86e6f883ec6b9ef8aac0fc14e9079a31ab4ccff5"
+  },
+  {
+    "source_id": "mhw-nimbus-ul-2-source",
+    "url": "https://www.rei.com/product/244544/mountain-hardwear-nimbus-ul-2-tent",
+    "publisher": "REI Co-op (official retailer listing)",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "mhw-nimbus-ul-2",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "price_usd",
+      "minimum_weight_g",
+      "packed_weight_g",
+      "floor_area_m2",
+      "doors_count",
+      "freestanding_status",
+      "footprint_included",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Official retailer listing, not a manufacturer-direct price. Current listing ID distinguished from archived predecessors. Displayed stock is not a guarantee of purchase availability. Materials and components still differ within structural cohorts.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "74d644d62406312e028ddd461baf2568d7dbcaf83be8f9836d0ec83d5b191b72"
+  },
+  {
+    "source_id": "tarptent-double-rainbow-source",
+    "url": "https://www.tarptent.com/product/double-rainbow/",
+    "publisher": "Tarptent",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "tarptent-double-rainbow",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "minimum_weight_g",
+      "doors_count",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Variant-specific minimum is published. Typical weight 1118 g remains in notes, not packed-weight column. Trekking poles may be required for optional freestanding/support modes and are not included in stated weight. Price range not bound to option; floor area not derived from dimensions. Groundsheet inclusion unverified.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "83d421c4c143924be82d6ea57ddecbfe6ff9a6ab145ff30d87b6695701e84ebd"
+  },
+  {
+    "source_id": "tarptent-double-rainbow-dw-source",
+    "url": "https://www.tarptent.com/product/double-rainbow-dw-sp/",
+    "publisher": "Tarptent",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "tarptent-double-rainbow-dw",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "minimum_weight_g",
+      "doors_count",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Variant-specific minimum is published. Typical weight 1222 g remains in notes, not packed-weight column. Trekking poles may be required for optional freestanding/support modes and are not included in stated weight. Price range not bound to option; floor area not derived from dimensions. Groundsheet inclusion unverified.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "38dd5fd525088472c2058475217ebcad1fd22c4424cb895c7f120ad5519579e9"
+  },
+  {
+    "source_id": "tarptent-dipole-2-dw-source",
+    "url": "https://www.tarptent.com/product/dipole-2-dw/",
+    "publisher": "Tarptent",
+    "retrieved_at_utc": "2026-10-13T20:17:40.047066+00:00",
+    "identifier": "tarptent-dipole-2-dw",
+    "tier": "A",
+    "extracted_fields": [
+      "season_rating",
+      "minimum_weight_g",
+      "doors_count",
+      "freestanding_status",
+      "construction"
+    ],
+    "confidence": "high",
+    "access_method": "manual_web_review",
+    "restriction_review": "Ordinary individual-page factual review; no bulk crawler, anti-bot bypass, consumer text, photography or full-page redistribution. Public output contains concise attributed facts only; no blanket permission to extract original content is asserted.",
+    "public_use": "concise_facts_only",
+    "limitations": [
+      "Variant-specific minimum is published. Typical weight 1246 g remains in notes, not packed-weight column. Trekking poles may be required for optional freestanding/support modes and are not included in stated weight. Price range not bound to option; floor area not derived from dimensions. Groundsheet inclusion unverified.",
+      "Display prices and retailer specifications are observations, not checked stock, checkout cost or independent performance verification."
+    ],
+    "evidence_sha256": "7e2eddbed4077b11d099026d45b2dddf1fee4ebada8683942b41a49581a1bcfd"
+  }
+]

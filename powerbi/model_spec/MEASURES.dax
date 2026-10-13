@@ -1,0 +1,52 @@
+// Proposed measure expressions. UNVERIFIED: no Power BI runtime has executed them.
+// Import physical field names from validated CSVs; table display names follow MODEL.md.
+// Host Product Price; format #,##0
+Product Count =
+CALCULATE(DISTINCTCOUNT('Product Price'[product_id]), 'Product Price'[is_latest_snapshot] = TRUE())
+
+// Host Product Price; format #,##0
+Comparable Listing Count =
+CALCULATE(COUNTROWS('Product Price'), 'Product Price'[is_latest_snapshot] = TRUE(), 'Product Price'[is_comparable_snapshot] = TRUE())
+
+// Host Product Price; format $#,##0.00; blank values excluded by MEDIAN
+Median Price =
+CALCULATE(MEDIAN('Product Price'[price_usd]), 'Product Price'[is_latest_snapshot] = TRUE(), 'Product Price'[verification_status] = "verified")
+
+// Host Product Price; format $#,##0.00; single complete cohort and brand only
+Brand Median Price =
+VAR _cohort = SELECTEDVALUE('Product'[cohort_id])
+RETURN IF(NOT ISBLANK(_cohort) && HASONEVALUE('Brand'[brand_id]),
+    CALCULATE([Median Price], REMOVEFILTERS('Product'), TREATAS({_cohort}, 'Product'[cohort_id])))
+
+// Host Product Price; format $#,##0.00; selected-brand median minus Naturehike median
+Price Gap =
+VAR _cohort = SELECTEDVALUE('Product'[cohort_id])
+VAR _brandPrice = [Brand Median Price]
+VAR _naturehikePrice = CALCULATE([Median Price], REMOVEFILTERS('Brand'), REMOVEFILTERS('Product'),
+    TREATAS({"naturehike"}, 'Brand'[brand_id]), TREATAS({_cohort}, 'Product'[cohort_id]))
+RETURN IF(NOT ISBLANK(_cohort) && NOT ISBLANK(_brandPrice) && NOT ISBLANK(_naturehikePrice), _brandPrice - _naturehikePrice)
+
+// Host Product Price; format #,##0.0 "g"; minimum/trail definition only
+Median Minimum Weight =
+CALCULATE(MEDIAN('Product Price'[minimum_weight_g]), 'Product Price'[is_latest_snapshot] = TRUE(), 'Product Price'[verification_status] = "verified")
+
+// Host Product Price; format #,##0.0 "g"; packed/packaged/total definition only
+Median Packed Weight =
+CALCULATE(MEDIAN('Product Price'[packed_weight_g]), 'Product Price'[is_latest_snapshot] = TRUE(), 'Product Price'[verification_status] = "verified")
+
+// Host Product Price; format $#,##0.00; numeric span, not a sales KPI
+Price Range =
+VAR _maximum = CALCULATE(MAX('Product Price'[price_usd]), 'Product Price'[is_latest_snapshot] = TRUE(), 'Product Price'[verification_status] = "verified")
+VAR _minimum = CALCULATE(MIN('Product Price'[price_usd]), 'Product Price'[is_latest_snapshot] = TRUE(), 'Product Price'[verification_status] = "verified")
+RETURN IF(NOT ISBLANK(_maximum) && NOT ISBLANK(_minimum), _maximum - _minimum)
+
+// Host Product Price; format 0.00%; record verification, not field completeness
+Verified Source Coverage =
+VAR _verified = CALCULATE(DISTINCTCOUNT('Product Price'[source_id]), 'Product Price'[is_latest_snapshot] = TRUE(), 'Product Price'[verification_status] = "verified")
+VAR _all = CALCULATE(DISTINCTCOUNT('Product Price'[source_id]), 'Product Price'[is_latest_snapshot] = TRUE())
+RETURN DIVIDE(_verified, _all)
+
+// Host Search Interest; format 0.0; one normalized batch AND one term only
+Mean Relative Interest =
+IF(HASONEVALUE('Search Term'[batch_id]) && HASONEVALUE('Search Term'[term_id]),
+    AVERAGE('Search Interest'[interest_index]))

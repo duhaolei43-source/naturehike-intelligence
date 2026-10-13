@@ -1,0 +1,13 @@
+cohort_id,brand_id,listing_count,median_price_usd,min_price_usd,max_price_usd,median_minimum_weight_g,median_packed_weight_g,naturehike_median_price_usd,price_gap_vs_naturehike_usd
+3-season|freestanding|double-wall|false,big-agnes,3,349.95,299.95,599.95,2267.96185,2494.7580350000003,,
+3-season|freestanding|double-wall|false,mountain-hardwear,1,580.0,580.0,580.0,1323.9227299375002,1502.524725625,,
+3-season|freestanding|double-wall|false,msr,2,574.95,549.95,599.95,1485.388555,1658.4471028125001,,
+3-season|freestanding|double-wall|false,nemo,2,574.95,549.95,599.95,1389.126633125,1644.27234125,,
+3-season|freestanding|double-wall|true,mountain-hardwear,1,350.0,350.0,350.0,2491.9230826875,2948.350405,139.0,211.0
+3-season|freestanding|double-wall|true,naturehike,2,139.0,119.0,159.0,1370.0,1665.0,139.0,0.0
+3-season|freestanding|double-wall|true,nemo,1,299.95,299.95,299.95,2126.214234375,2551.45708125,139.0,160.95
+3-season|freestanding|double-wall|true,rei,3,259.0,199.0,329.0,2191.4181375625,2834.10182680625,139.0,120.0
+3-season|semi-freestanding|double-wall|false,big-agnes,2,474.95,449.95,499.95,921.3595015625001,1077.28187875,,
+3-season|semi-freestanding|double-wall|false,mountain-hardwear,1,460.0,460.0,460.0,907.18474,969.5536908750001,,
+3-season|semi-freestanding|double-wall|false,msr,1,499.95,499.95,499.95,910.0,1060.0,,
+3-season|semi-freestanding|double-wall|false,nemo,2,589.95,479.95,699.95,850.4856937500001,1034.7575940625002,,

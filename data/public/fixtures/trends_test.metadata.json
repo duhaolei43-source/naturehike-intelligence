@@ -1,0 +1,20 @@
+{
+  "batch_id": "TEST-DATA-batch",
+  "geography": "US",
+  "date_start": "2025-01-01",
+  "date_end": "2025-01-31",
+  "category": 0,
+  "search_type": "web",
+  "exported_at_utc": "2025-02-01T00:00:00Z",
+  "source_id": "TEST-DATA-source",
+  "normalization_scope": "joint_batch",
+  "is_test_data": true,
+  "terms": {
+    "Naturehike": "Naturehike: (United States)",
+    "backpacking tent": "backpacking tent: (United States)"
+  },
+  "semantics": {
+    "Naturehike": "search_term",
+    "backpacking tent": "search_term"
+  }
+}

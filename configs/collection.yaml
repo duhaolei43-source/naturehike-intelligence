@@ -1,0 +1,6 @@
+dataset_version: "2026-10-13-v1"
+capacity_persons: 2
+category: backpacking_tent
+target_verified_variants: 30
+collection_mode: manual_official_sources
+publish: concise_factual_observations_only

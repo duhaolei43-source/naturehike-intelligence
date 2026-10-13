@@ -1,0 +1,5 @@
+price_band_edges_usd: [150, 250, 400]
+canonical_listing: latest_per_product
+cohort_fields: [season_rating, freestanding_status, construction, footprint_included]
+primary_weight: minimum_weight_g
+population_inference: false

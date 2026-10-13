@@ -1,0 +1,48 @@
+name: Quality and reproducibility
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  quality:
+    name: ${{ matrix.name }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: Lint
+            command: uv run ruff check . && uv run sqlfluff lint sql powerbi/model_spec/reference_queries.sql
+          - name: Format Check
+            command: uv run ruff format --check .
+          - name: Data Contract Validation
+            command: uv run python scripts/validate_data.py
+          - name: Unit Tests
+            command: uv run pytest -q tests/unit
+          - name: Integration Tests
+            command: uv run pytest -q tests/integration tests/data_quality
+          - name: Reproducibility Smoke Test
+            command: uv run python scripts/reproducibility_smoke.py
+          - name: Release Safety Check
+            command: uv run python scripts/verify_release.py
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@6b9c6063abd6010835644d4c2e1bef4cf5cd0fca # v6.0.1
+        with:
+          version: "0.10.12"
+          enable-cache: false
+      - run: uv sync --locked --python 3.12
+      - name: Build deterministic offline exports
+        run: uv run python scripts/build_data.py
+      - name: Run check
+        run: ${{ matrix.command }}
+      - name: Scan tracked Git history for secrets
+        if: matrix.name == 'Release Safety Check'
+        run: |
+          go install github.com/gitleaks/gitleaks/v8@v8.30.1
+          "$(go env GOPATH)/bin/gitleaks" git --redact .

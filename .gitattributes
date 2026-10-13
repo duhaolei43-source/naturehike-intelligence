@@ -1,0 +1,2 @@
+# Preserve the upstream generated Plotly bundle without altering shader/source text.
+outputs/public/charts/plotly.min.js linguist-vendored=true whitespace=-blank-at-eol
