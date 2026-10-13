@@ -1,0 +1,118 @@
+[
+  {
+    "alternative": "Different included components and material variants may explain differences.",
+    "class": "Observed",
+    "id": "I1",
+    "limitation": "Approximate manufacturer specifications; component equivalence is not established. Cloud Up selected listing was sold out. No preference or performance inference.",
+    "method": "Subtract variant-bound reported specifications and observed USD offers.",
+    "metrics": {
+      "minimum_difference_g": 20.0,
+      "packed_difference_g": 270.0,
+      "price_difference_usd": 40.0
+    },
+    "product_ids": [
+      "nh-cloud-up-20d",
+      "nh-cloud-up-pro-standard"
+    ],
+    "recommendation_id": "E1",
+    "source_ids": [
+      "nh-cloud-up-20d-source",
+      "nh-cloud-up-pro-standard-source"
+    ],
+    "status": "SOURCE_VERIFIED",
+    "title": "Two weights. Two different stories."
+  },
+  {
+    "alternative": "Fabrics, design, brand assortment and other unmeasured attributes may differ.",
+    "class": "Observed",
+    "id": "I2",
+    "limitation": "Equal area, doors and footprint inclusion do not imply equal durability or customer value. No causal premium explanation.",
+    "method": "Compare the selected REI offers and reported shared features; subtract display prices.",
+    "metrics": {
+      "doors_count": 2,
+      "floor_area_ft2": 31.8,
+      "price_difference_usd": 130.0
+    },
+    "product_ids": [
+      "rei-trailmade-2",
+      "rei-half-dome-2"
+    ],
+    "recommendation_id": "E2",
+    "source_ids": [
+      "rei-trailmade-2-source",
+      "rei-half-dome-2-source"
+    ],
+    "status": "SOURCE_VERIFIED",
+    "title": "The same area does not explain the price."
+  },
+  {
+    "alternative": "Separate accessories may be optional and vary by intended use.",
+    "class": "Observed",
+    "id": "I3",
+    "limitation": "Shipping, tax and accessory costs are incomplete; no landed-cost ranking.",
+    "method": "Count populated footprint flags; unknowns remain excluded from inclusion counts.",
+    "metrics": {
+      "excluded_count": 16,
+      "included_count": 10
+    },
+    "product_ids": [
+      "ba-blacktail-2",
+      "ba-blacktail-hotel-2",
+      "ba-copper-spur-ul2",
+      "ba-fly-creek-ul2",
+      "ba-tiger-wall-ul2",
+      "kelty-far-out-2",
+      "kelty-late-start-2",
+      "mhw-aspect-2",
+      "mhw-mineral-king-2",
+      "mhw-nimbus-ul-2",
+      "msr-elixir-2",
+      "msr-freelite-2",
+      "msr-hubba-hubba-hd-2",
+      "msr-hubba-hubba-lt-2",
+      "nemo-aurora-2",
+      "nemo-dagger-osmo-2",
+      "nemo-dragonfly-osmo-2",
+      "nemo-hornet-elite-osmo-2",
+      "nemo-hornet-osmo-2",
+      "nh-cloud-up-20d",
+      "nh-cloud-up-pro-standard",
+      "nh-mongar-210t",
+      "rei-half-dome-2",
+      "rei-trail-hut-2",
+      "rei-trailmade-2",
+      "tnf-trail-lite-2"
+    ],
+    "recommendation_id": "E3",
+    "source_ids": [
+      "ba-blacktail-2-source",
+      "ba-blacktail-hotel-2-source",
+      "ba-copper-spur-ul2-source",
+      "ba-fly-creek-ul2-source",
+      "ba-tiger-wall-ul2-source",
+      "kelty-far-out-2-source",
+      "kelty-late-start-2-source",
+      "mhw-aspect-2-source",
+      "mhw-mineral-king-2-source",
+      "mhw-nimbus-ul-2-source",
+      "msr-elixir-2-source",
+      "msr-freelite-2-source",
+      "msr-hubba-hubba-hd-2-source",
+      "msr-hubba-hubba-lt-2-source",
+      "nemo-aurora-2-source",
+      "nemo-dagger-osmo-2-source",
+      "nemo-dragonfly-osmo-2-source",
+      "nemo-hornet-elite-osmo-2-source",
+      "nemo-hornet-osmo-2-source",
+      "nh-cloud-up-20d-source",
+      "nh-cloud-up-pro-standard-source",
+      "nh-mongar-210t-source",
+      "rei-half-dome-2-source",
+      "rei-trail-hut-2-source",
+      "rei-trailmade-2-source",
+      "tnf-trail-lite-2-source"
+    ],
+    "status": "SOURCE_VERIFIED",
+    "title": "Check what comes in the bag."
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "baseline_commit": "4d81e5c7c087a70b65152eea2ee118a2fe51bf32",
+  "coverage": {
+    "brand_count": 9,
+    "incomplete_cohort_count": 9,
+    "latest_observation_utc": "2026-10-13T20:17:40.047066Z",
+    "missing_floor_area_count": 6,
+    "missing_minimum_weight_count": 0,
+    "missing_packed_weight_count": 4,
+    "missing_price_count": 3,
+    "product_count": 30,
+    "verified_count": 30
+  },
+  "dataset_hash": "2f8fd18d3ee2e61d0d3a9510176a3f91354995483feb3dfd3cd60c31346bf2a8",
+  "dataset_version": "2026-10-13-v1",
+  "input_hashes": {
+    "configs/collection.yaml": "97a29337e193a163ac3abd30800636599c209d257dc1093e2f36a281344a6cf7",
+    "data/public/processed/manifest.json": "eee6c707104324d23dd90de1ff48291b68328b672f8bccda58d6be48d6355f6e",
+    "data/public/raw/exclusions.json": "0439afb93c7f52c7df017ca7546f5ac89441e76ae63c399cc1d91da0a6c6651e",
+    "data/public/raw/products.json": "675431ea40fe18faa09313d4c9781dc0f94dac7d64860530c9be81a6c7235ba1",
+    "data/public/raw/sources.json": "69d363e9006281ddad9f8fdad00250f543483905648f8156e006b75dd07aa8ac",
+    "src/naturehike_intel/export/web.py": "257035d1b96e40d6ee8288c0592d675f4afc9eb26a76bdcdd356136922b5f830",
+    "web/contracts/web.schema.json": "5fa7bf0013885462d78b09da78f542f3e467f1370b18f6e68d908819be6d9f1f",
+    "web/media-registry.json": "1068f423df7dd172f9b0099053ee87067498f40cc30d94ae4c8db4e34c349598"
+  },
+  "output_hashes": {
+    "boundary.schema.json": "957347b771641fd66849457b7d3976b0dff83ded4cb0ebde6bb052cc47f408c9",
+    "cohorts.json": "c415c21eeb374eb40cd4b81fa342f9763a9cefc8df6a3989844a21ffb41160c5",
+    "demand.json": "233bcdd70eef597a11ca664121817bbcf5356b0907f778e25c0c0da9db48590c",
+    "exclusions.json": "0439afb93c7f52c7df017ca7546f5ac89441e76ae63c399cc1d91da0a6c6651e",
+    "findings.json": "08677859c9e8146410a8fb16a99ddd4d48d8e4063ddaa4b3e74593749cc95d8f",
+    "media.json": "41c6c97f0aafb8ca6e5e49000d6222d2d3534221bdfdb59a48025980429c1c51",
+    "offers.json": "41a9ae39f27060dbaee8901d61c5e3ba3e3b36a099013b9624729d772037493b",
+    "parity-vectors.json": "45575689f26f88ea39fcc66d7da1287f9fec13342124c431ed3b2d5e74cc7f14",
+    "products.json": "638d2556b72b50e72d9db47ac9577dfb0528429a0c200f4a57e9ab59205a8f48",
+    "sources.json": "96e9f7a50ba21efd85f544807bb8a3b8bec7fad7fe591122d0b926feb556a965",
+    "web.schema.json": "f2e8a5245d4e3f8e4eb801218a7049c2052f96d64ca58303b8f465638587a09d"
+  },
+  "rows": {
+    "priced": 27,
+    "products": 30,
+    "sources": 30
+  },
+  "schema_version": 1,
+  "statuses": {
+    "demand": "INCOMPLETE",
+    "experiments": "PROPOSED / NOT EXECUTED",
+    "powerbi": "UNVERIFIED"
+  }
+}

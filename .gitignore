@@ -19,3 +19,12 @@ logs/private/
 **/.pbi/cache.abf
 .DS_Store
 *.egg-info/
+
+# Public frontend local build/test files
+web/node_modules/
+web/.next/
+web/out/
+web/test-results/
+web/playwright-report/
+web/*.tsbuildinfo
+web/next-env.d.ts

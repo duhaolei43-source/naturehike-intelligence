@@ -1,0 +1,282 @@
+{
+  "products": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "items": {
+      "additionalProperties": false,
+      "properties": {
+        "availability": {
+          "type": "string"
+        },
+        "brand_id": {
+          "type": "string"
+        },
+        "cohort_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "construction": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "doors_count": {
+          "anyOf": [
+            {
+              "maximum": 9007199254740991,
+              "minimum": -9007199254740991,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "fabric_material": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "field_evidence": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "propertyNames": {
+            "type": "string"
+          },
+          "type": "object"
+        },
+        "floor_area_m2": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "footprint_included": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "freestanding_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "listing_type": {
+          "type": "string"
+        },
+        "minimum_weight_g": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "missing_reasons": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "propertyNames": {
+            "type": "string"
+          },
+          "type": "object"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "original_price_usd": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "packed_weight_g": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "price_observed_at_utc": {
+          "type": "string"
+        },
+        "price_type": {
+          "enum": [
+            "regular",
+            "sale",
+            "displayed_unclassified",
+            "unavailable"
+          ],
+          "type": "string"
+        },
+        "price_usd": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "product_id": {
+          "type": "string"
+        },
+        "product_name": {
+          "type": "string"
+        },
+        "product_url": {
+          "format": "uri",
+          "type": "string"
+        },
+        "product_variant": {
+          "type": "string"
+        },
+        "season_rating": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "vendor_name": {
+          "type": "string"
+        },
+        "verification_status": {
+          "const": "verified",
+          "type": "string"
+        },
+        "weight_definition": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "product_id",
+        "brand_id",
+        "product_name",
+        "product_variant",
+        "product_url",
+        "price_usd",
+        "original_price_usd",
+        "price_type",
+        "minimum_weight_g",
+        "packed_weight_g",
+        "floor_area_m2",
+        "doors_count",
+        "season_rating",
+        "freestanding_status",
+        "construction",
+        "footprint_included",
+        "availability",
+        "source_id",
+        "price_observed_at_utc",
+        "weight_definition",
+        "fabric_material",
+        "notes",
+        "listing_type",
+        "vendor_name",
+        "missing_reasons",
+        "field_evidence",
+        "verification_status",
+        "cohort_id"
+      ],
+      "type": "object"
+    },
+    "type": "array"
+  },
+  "sources": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "items": {
+      "additionalProperties": false,
+      "properties": {
+        "access_method": {
+          "type": "string"
+        },
+        "confidence": {
+          "type": "string"
+        },
+        "evidence_sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "extracted_fields": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "identifier": {
+          "type": "string"
+        },
+        "limitations": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "public_use": {
+          "const": "concise_facts_only",
+          "type": "string"
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "retrieved_at_utc": {
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "tier": {
+          "type": "string"
+        },
+        "url": {
+          "format": "uri",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "url",
+        "publisher",
+        "retrieved_at_utc",
+        "identifier",
+        "tier",
+        "confidence",
+        "access_method",
+        "public_use",
+        "limitations",
+        "evidence_sha256",
+        "extracted_fields"
+      ],
+      "type": "object"
+    },
+    "type": "array"
+  }
+}

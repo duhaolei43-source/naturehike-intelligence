@@ -1,0 +1,37 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "dataset_version": {
+      "title": "Dataset Version",
+      "type": "string"
+    },
+    "products": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Products",
+      "type": "array"
+    },
+    "schema_version": {
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "sources": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Sources",
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "dataset_version",
+    "products",
+    "sources"
+  ],
+  "title": "WebContract",
+  "type": "object"
+}

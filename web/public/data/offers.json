@@ -1,0 +1,242 @@
+[
+  {
+    "cohort_id": "3-season|freestanding|double-wall|false",
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 299.95,
+    "product_id": "ba-blacktail-2",
+    "source_id": "ba-blacktail-2-source"
+  },
+  {
+    "cohort_id": "3-season|freestanding|double-wall|false",
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 349.95,
+    "product_id": "ba-blacktail-hotel-2",
+    "source_id": "ba-blacktail-hotel-2-source"
+  },
+  {
+    "cohort_id": "3-season|freestanding|double-wall|false",
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 599.95,
+    "product_id": "ba-copper-spur-ul2",
+    "source_id": "ba-copper-spur-ul2-source"
+  },
+  {
+    "cohort_id": "3-season|semi-freestanding|double-wall|false",
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 449.95,
+    "product_id": "ba-fly-creek-ul2",
+    "source_id": "ba-fly-creek-ul2-source"
+  },
+  {
+    "cohort_id": "3-season|semi-freestanding|double-wall|false",
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 499.95,
+    "product_id": "ba-tiger-wall-ul2",
+    "source_id": "ba-tiger-wall-ul2-source"
+  },
+  {
+    "cohort_id": null,
+    "price_observed_at_utc": "2026-10-13T19:32:26.941285Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 209.95,
+    "product_id": "kelty-far-out-2",
+    "source_id": "kelty-far-out-2-source"
+  },
+  {
+    "cohort_id": null,
+    "price_observed_at_utc": "2026-10-13T19:32:26.941285Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 149.95,
+    "product_id": "kelty-grand-mesa-2",
+    "source_id": "kelty-grand-mesa-2-source"
+  },
+  {
+    "cohort_id": null,
+    "price_observed_at_utc": "2026-10-13T19:32:26.941285Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 159.95,
+    "product_id": "kelty-late-start-2",
+    "source_id": "kelty-late-start-2-source"
+  },
+  {
+    "cohort_id": "3-season|freestanding|double-wall|false",
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 580.0,
+    "product_id": "mhw-aspect-2",
+    "source_id": "mhw-aspect-2-source"
+  },
+  {
+    "cohort_id": "3-season|freestanding|double-wall|true",
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 350.0,
+    "product_id": "mhw-mineral-king-2",
+    "source_id": "mhw-mineral-king-2-source"
+  },
+  {
+    "cohort_id": "3-season|semi-freestanding|double-wall|false",
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 460.0,
+    "product_id": "mhw-nimbus-ul-2",
+    "source_id": "mhw-nimbus-ul-2-source"
+  },
+  {
+    "cohort_id": null,
+    "price_observed_at_utc": "2026-10-13T19:32:26.941285Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 339.95,
+    "product_id": "msr-elixir-2",
+    "source_id": "msr-elixir-2-source"
+  },
+  {
+    "cohort_id": "3-season|semi-freestanding|double-wall|false",
+    "price_observed_at_utc": "2026-10-13T19:32:26.941285Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 499.95,
+    "product_id": "msr-freelite-2",
+    "source_id": "msr-freelite-2-source"
+  },
+  {
+    "cohort_id": "3-season|freestanding|double-wall|false",
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 599.95,
+    "product_id": "msr-hubba-hubba-hd-2",
+    "source_id": "msr-hubba-hubba-hd-2-source"
+  },
+  {
+    "cohort_id": "3-season|freestanding|double-wall|false",
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 549.95,
+    "product_id": "msr-hubba-hubba-lt-2",
+    "source_id": "msr-hubba-hubba-lt-2-source"
+  },
+  {
+    "cohort_id": "3-season|freestanding|double-wall|true",
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 299.95,
+    "product_id": "nemo-aurora-2",
+    "source_id": "nemo-aurora-2-source"
+  },
+  {
+    "cohort_id": "3-season|freestanding|double-wall|false",
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 599.95,
+    "product_id": "nemo-dagger-osmo-2",
+    "source_id": "nemo-dagger-osmo-2-source"
+  },
+  {
+    "cohort_id": "3-season|freestanding|double-wall|false",
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 549.95,
+    "product_id": "nemo-dragonfly-osmo-2",
+    "source_id": "nemo-dragonfly-osmo-2-source"
+  },
+  {
+    "cohort_id": "3-season|semi-freestanding|double-wall|false",
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 699.95,
+    "product_id": "nemo-hornet-elite-osmo-2",
+    "source_id": "nemo-hornet-elite-osmo-2-source"
+  },
+  {
+    "cohort_id": "3-season|semi-freestanding|double-wall|false",
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 479.95,
+    "product_id": "nemo-hornet-osmo-2",
+    "source_id": "nemo-hornet-osmo-2-source"
+  },
+  {
+    "cohort_id": "3-season|freestanding|double-wall|true",
+    "price_observed_at_utc": "2026-10-13T19:32:26.941285Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 119.0,
+    "product_id": "nh-cloud-up-20d",
+    "source_id": "nh-cloud-up-20d-source"
+  },
+  {
+    "cohort_id": "3-season|freestanding|double-wall|true",
+    "price_observed_at_utc": "2026-10-13T19:32:26.941285Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 159.0,
+    "product_id": "nh-cloud-up-pro-standard",
+    "source_id": "nh-cloud-up-pro-standard-source"
+  },
+  {
+    "cohort_id": null,
+    "price_observed_at_utc": "2026-10-13T19:32:26.941285Z",
+    "price_type": "sale",
+    "price_usd": 113.0,
+    "product_id": "nh-mongar-210t",
+    "source_id": "nh-mongar-210t-source"
+  },
+  {
+    "cohort_id": "3-season|freestanding|double-wall|true",
+    "price_observed_at_utc": "2026-10-13T19:32:26.941285Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 329.0,
+    "product_id": "rei-half-dome-2",
+    "source_id": "rei-half-dome-2-source"
+  },
+  {
+    "cohort_id": "3-season|freestanding|double-wall|true",
+    "price_observed_at_utc": "2026-10-13T19:32:26.941285Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 259.0,
+    "product_id": "rei-trail-hut-2",
+    "source_id": "rei-trail-hut-2-source"
+  },
+  {
+    "cohort_id": "3-season|freestanding|double-wall|true",
+    "price_observed_at_utc": "2026-10-13T19:32:26.941285Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 199.0,
+    "product_id": "rei-trailmade-2",
+    "source_id": "rei-trailmade-2-source"
+  },
+  {
+    "cohort_id": null,
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "unavailable",
+    "price_usd": null,
+    "product_id": "tarptent-dipole-2-dw",
+    "source_id": "tarptent-dipole-2-dw-source"
+  },
+  {
+    "cohort_id": null,
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "unavailable",
+    "price_usd": null,
+    "product_id": "tarptent-double-rainbow",
+    "source_id": "tarptent-double-rainbow-source"
+  },
+  {
+    "cohort_id": null,
+    "price_observed_at_utc": "2026-10-13T20:17:40.047066Z",
+    "price_type": "unavailable",
+    "price_usd": null,
+    "product_id": "tarptent-double-rainbow-dw",
+    "source_id": "tarptent-double-rainbow-dw-source"
+  },
+  {
+    "cohort_id": null,
+    "price_observed_at_utc": "2026-10-13T19:32:26.941285Z",
+    "price_type": "displayed_unclassified",
+    "price_usd": 360.0,
+    "product_id": "tnf-trail-lite-2",
+    "source_id": "tnf-trail-lite-2-source"
+  }
+]

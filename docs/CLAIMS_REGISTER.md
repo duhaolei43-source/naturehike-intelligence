@@ -16,3 +16,6 @@
 | X4 | Unsupported | Marketing uplift, CAC or ROAS | No executed campaign | Prohibited |
 
 The report and dashboard use these classifications. Review new claims against raw field evidence, current marts, cohort boundaries and alternative explanations before publication. Review changes to sources, product coverage or extraction rules as new observations, not silent edits to history.
+
+## Public website extension
+The static web experience implements the existing claims and missing-input statuses; it adds no market-share, demand or realized marketing-outcome claim. Price-weight labels use one complete filtered cohort and one weight definition. Broad descriptive views and singleton eligible sets have no efficiency badge. The source-verification badge does not certify performance or completeness. See WEB_EXPERIENCE_SPEC.md and WEB_QA_REPORT.md for bounded implementation evidence.
